@@ -21,4 +21,4 @@ Aida: clean the data pulled from https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/
 
 Renato : clean the data pulled from https://www.fdle.state.fl.us/CJAB/UCR/Annual-Reports/FIBRS and prepare necessary tables for visualization based on the related 5 topics.
 
-Ruby : Scrape the data from https://www.crimemapping.com/map/fl/miami , clean , and prepare necessary tables for visualization based on the related 5 topics.
+Ruby : clean the data from https://www.fdle.state.fl.us/CJAB/UCR/Annual-Reports/UCR-Arrest-Data , clean , and prepare necessary tables for visualization based on the related 5 topics.
