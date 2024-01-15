@@ -1,5 +1,4 @@
-County,Year,Total Arrests,Total Adult Arrests,Total Juvenile Arrests,Murder,Rape,"Kidnap/
-Abduction",Drug Arrest,Aggravated Assault,Theft
+County,Year,Total Arrests,Total Adult Arrests,Total Juvenile Arrests,Murder,Rape,Kidnap and Abduction,Drug Arrest,Aggravated Assault,Theft
 Alachua County,2020,5919,5460,459,13,54,14,631,604,1399
 Baker County,2020,951,912,39,2,4,1,158,66,58
 Bay County,2020,13994,13198,796,10,32,46,2438,540,2438
@@ -67,4 +66,3 @@ Volusia County,2020,21850,20970,880,22,43,58,2731,1194,2332
 Wakulla County,2020,716,661,55,2,2,0,140,46,128
 Walton County,2020,2437,2254,183,1,13,0,253,81,290
 Washington County,2020,607,580,27,1,0,0,206,29,79
-Florida,2020,508490,476947,31543,844,1817,642,68661,25508,73129
