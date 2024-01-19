@@ -43,8 +43,7 @@ Papa.parse('../resources/filtered_data2.csv', {
 
             // Function to show pie chart for the selected county
             function showCrimePieChart(countyName) {
-                // Rest of the code remains the same
-                // ...
+             
             }
         } else {
             alert('Error loading CSV data.');
@@ -114,7 +113,7 @@ Papa.parse('../resources/filtered_data2.csv', {
             pieChartPopup.style.backgroundColor = '#fff';
             pieChartPopup.style.padding = '20px';
             pieChartPopup.style.border = '1px solid #ddd';
-            pieChartPopup.style.width = '267px';   // Adjust width as needed for better visibility
+            pieChartPopup.style.width = '267px'; 
             pieChartPopup.style.height = '300px';
             var closeButton = document.createElement('button');
             closeButton.textContent = 'Close';
@@ -134,4 +133,3 @@ Papa.parse('../resources/filtered_data2.csv', {
 });
 
 
-///// findings box

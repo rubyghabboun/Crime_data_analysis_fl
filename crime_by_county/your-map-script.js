@@ -73,7 +73,7 @@ function loadGeoJSON(file) {
                         return { color: 'gray' }; // Default color for counties with no data
                     },
                     onEachFeature: function(feature, layer) {
-                        // Find corresponding data in CSV file based on county name
+                        // Find data in CSV file based on county name
                         const countyData = csvData.find(item => item.County === feature.properties.name);
 
                         // Create pop-up content with CSV data
@@ -86,7 +86,7 @@ function loadGeoJSON(file) {
                             popupContent += '<br>Aggravated Assault: ' + countyData['Aggravated Assault'];
                             popupContent += '<br>Theft: ' + countyData.Theft;
 
-                            // Add gun icon if there is 1 or more murders
+                            // Add skull icon if there is 1 or more murders
                             if (countyData.Murder >= 1) {
                                 const gunIcon = new L.DivIcon({
                                     className: 'skull-icon',
@@ -209,7 +209,7 @@ document.body.appendChild(showJuvenileButton);
 const juvenileBox = document.createElement('div');
 juvenileBox.style.position = 'absolute';
 juvenileBox.style.top = '50px';
-juvenileBox.style.right = '250px'; // Adjust this value as needed
+juvenileBox.style.right = '250px'; 
 juvenileBox.style.backgroundColor = 'lightgrey';
 juvenileBox.style.padding = '10px';
 juvenileBox.style.border = '10px solid #ccc';
@@ -219,9 +219,9 @@ juvenileBox.style.width = '200px';
 juvenileBox.style.overflow = 'auto';
 document.body.appendChild(juvenileBox);
 
-// Step 3: Add an event listener to the button
+// Add an event listener to the button
 showJuvenileButton.addEventListener('click', () => {
-    // Step 4: Populate the box with information
+    //  Populate the box with information
     juvenileBox.innerHTML = '<h3>Total Juvenile Arrests by County</h3>';
 
     // Loop through your data and add information for each county
@@ -242,7 +242,7 @@ showJuvenileButton.addEventListener('click', () => {
     // Display the box
     juvenileBox.style.display = 'block';
 
-    // Step 5: Add event listener to the search button
+    //  Add event listener to the search button
     searchButton.addEventListener('click', () => {
         const searchTerm = searchInput.value.toLowerCase(); // Convert to lowercase for case-insensitive search
 
@@ -281,7 +281,7 @@ document.body.appendChild(showAdultButton);
 const AdultButton = document.createElement('div');
 AdultButton.style.position = 'absolute';
 AdultButton.style.top = '50px';
-AdultButton.style.right = '10px'; // Adjust this value as needed
+AdultButton.style.right = '10px'; 
 AdultButton.style.backgroundColor = 'lightgrey';
 AdultButton.style.padding = '10px';
 AdultButton.style.border = '10px solid #ccc';
@@ -291,9 +291,9 @@ AdultButton.style.width = '180px';
 AdultButton.style.overflow = 'auto';
 document.body.appendChild(AdultButton);
 
-// Step 3: Add an event listener to the button
+//  Add an event listener to the button
 showAdultButton.addEventListener('click', () => {
-    // Step 4: Populate the box with information
+    //  Populate the box with information
     AdultButton.innerHTML = '<h3>Total Adult Arrests by County</h3>';
 
     // Loop through your data and add information for each county
@@ -314,9 +314,9 @@ showAdultButton.addEventListener('click', () => {
     // Display the box
     AdultButton.style.display = 'block';
 
-    // Step 5: Add event listener to the search button
+    //  Add event listener to the search button
     searchButton.addEventListener('click', () => {
-        const searchTerm = searchInput.value.toLowerCase(); // Convert to lowercase for case-insensitive search
+        const searchTerm = searchInput.value.toLowerCase(); // Convert to lowercase for case insensitive search
 
         // Filter the data based on the search term
         const filteredData = csvData.filter(item => item.County.toLowerCase().includes(searchTerm));
@@ -340,12 +340,5 @@ console.log("Script loaded.");
 });
 
 
-/// TOMORROW TRY TO ADD ALL GENERAL INFO AND SPECIFIC INFO IN TWO DERODOWN MENUE AFTER TO SHOW EXACT WANTED CONTENT
+
 // https://github.com/danielcs88/fl_geo_json/blob/master/fl-state.json
-// change map size
-// remove buttons make charts on the left side of the map,
-// hover to see county
-/// ask keith if search is a library
-// let useres be able to filter certain data.. like show only green,......
-// change my resource from
-/// add another page with key findings
