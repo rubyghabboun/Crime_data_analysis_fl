@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florida County Crime Map</title>
-    <!-- Add Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-</head>
+    <title>Florida County Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+</head>   
 <body>
-    <div id="map" style="height: 600px;"></div>
-
-    <!-- Add Leaflet JS -->
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <!-- Add PapaParse JS for CSV parsing -->
+    <script>
+        // Display alert on page load
+        window.onload = function() {
+            alert("ALERT !! Some content regarding crime categories might be disturbing or triggering to some, feel free to leave the presentation at any time.");
+        }
+    </script>
+    <!-- Your map content -->
+    <div id="map" style="height: 650px; width: 65%;"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <!-- Include your main.js file -->
-    <script src="main.js"></script>
+    <script src="your-map-script.js"></script>
+    <script src="users.js"></script>
+     
 </body>
 </html>
