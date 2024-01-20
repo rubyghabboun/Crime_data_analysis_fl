@@ -36,6 +36,7 @@ https://github.com/danielcs88/fl_geo_json/blob/master/fl-state.json (geojson dat
 
 
 E) At least one paragraph summarizing efforts for ethical considerations made in the project:
+
 All our resources are from governmental websites, during the data cleaning process we made sure there is no sensitive information regarding names, addresses, and personal data.
 we also removed any bias by not analysing ethnicities and only looked at relevant crime data.
 
