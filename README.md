@@ -40,7 +40,8 @@ E) At least one paragraph summarizing efforts for ethical considerations made in
 All our resources are from governmental websites, during the data cleaning process we made sure there is no sensitive information regarding names, addresses, and personal data.
 we also removed any bias by not analysing ethnicities and only looked at relevant crime data.
 
+F) final analysis 
 
-
-
+In reviewing the data scrutinized for this project, our primary focus was on the year 2020, coinciding with the onset of the COVID-19 pandemic. We specifically examined counties with the highest total arrests, with Miami-Dade County leading at 45,285 total arrests, followed by Hillsborough County (32,519) and Broward County (29,685). To discern patterns and evaluate the possibility of outliers, our analysis extended to 2021. Unexpectedly, Duval County took the lead in crime with 7,996 reported incidents, trailed by Pinellas with 6,718 incidents, while Miami-Dade reported 2,344 incidents. Suspecting 2021 as potentially anomalous, we further explored 2022, revealing a surge in violent crime in Miami-Dade County (11,453 incidents), accompanied by a decline in Duval County to 8,110 reported crimes.
+Upon deeper examination of the 2022 data, it was uncovered that 68.6% of offenders were male, while 30.4% were female. Additionally, crimes exhibited a relatively even distribution between white and African American populations. City-specific analysis underscored Jacksonville and the Miami-Fort Lauderdale-Pompano Beach area as leaders in this context. In light of this comprehensive data, we recommend the implementation of the following strategies to mitigate crime rates: Community Engagement Programs, Youth Programs and Education, Targeted Law Enforcement Strategies, Drug Prevention and Rehabilitation, Regional Collaboration, and Data-Driven Policing.
 
