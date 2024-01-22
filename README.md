@@ -27,6 +27,14 @@ C) Instructions on how to use and interact with the project :
 
 1. Each analytical subject will be found in a separate folder alongside with all the related data sources, files, and code.
 2. (crime_by_county) folder --> after pulling, code and html map should run perfectly, the map has multiple ways to interact and filter data such as search buttons, filtered pie charts, a bar chart for theft , and you can hover over the map and select a county to view more details.
+3. (offenders_distribution) folder 
+   -Ensure you have Python and PostgreSQL installed on your system.
+   -The analysis requires a specific dataset named 'offenders_data.csv' located in a folder named 'Resources'. -    Ensure this file is in the correct location before running the notebook.
+   -To load into postgres, use ‘createdb’ to create a database and then run the following to setup the basic     database structure and load the common code lookup tables:
+   •	psql your_db_name < postgres_create.sql
+        You then can run the following command in the NIBRS annual zipfile downloaded to load that data into your database:
+   •	psql your_db_name < postgres_load.sql
+
 3. The other two analytical categories are on a jupyter notebook and the data set for age distribution is a (postgresql) database.
 
 
