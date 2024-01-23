@@ -37,6 +37,12 @@ C) Instructions on how to use and interact with the project :
 
 4. The other analytical category is on a jupyter notebook 
 
+## folders :
+crime_by_county done by Ruby
+
+offenders_distribution done by Aida
+
+year_over_year_analysis done by Renato
 
 
 D) References for any code used that is not your own :
