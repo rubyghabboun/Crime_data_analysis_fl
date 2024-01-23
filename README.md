@@ -35,7 +35,7 @@ C) Instructions on how to use and interact with the project :
         You then can run the following command in the NIBRS annual zipfile downloaded to load that data into your database:
    •	psql your_db_name < postgres_load.sql
 
-3. The other two analytical categories are on a jupyter notebook and the data set for age distribution is a (postgresql) database.
+4. The other analytical category is on a jupyter notebook 
 
 
 
