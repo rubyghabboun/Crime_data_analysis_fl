@@ -1,6 +1,6 @@
 ## project3 UNIVERSITY OF MIAMI COURSE
 crime analysis for south florida
-## must run html code to view the java script visualizations webpage
+## must run html code to view the java script visualizations webpage in crime by county folder you will find ( index.html users.js )
 
 ## A) An overview of the project and its purpose :
 
