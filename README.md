@@ -1,6 +1,6 @@
 ## project3 UNIVERSITY OF MIAMI COURSE
 crime analysis for south florida
-
+## must run html code to view the java script visualizations webpage
 
 ## A) An overview of the project and its purpose :
 
